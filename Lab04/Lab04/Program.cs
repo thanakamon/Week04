@@ -7,20 +7,24 @@ namespace Lab04
     {
         static void Main(string[] args)
         {
-            {
-                try
-                {
-                    Console.Write("Please enter value 1 :");
-                    int val1 = Convert.ToInt32(Console.ReadLine());
-                    Console.Write("Please enter value 2 :");
-                    int val2 = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("Answer = " + (val1 + val2));
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine("Error : " + e.ToString());
-                }
-            }
+
+            string n,s;
+            int i;
+            double g;
+
+            Console.WriteLine("Input your Name: ");
+            n = Convert.ToString(Console.ReadLine());
+            Console.WriteLine("Last name : ");
+            s = Convert.ToString(Console.ReadLine());
+            Console.WriteLine("Input your id: ");
+            i = int.Parse(Console.ReadLine());
+            Console.WriteLine("Input your GPA:");
+            g = double.Parse(Console.ReadLine());
+
+
+
+
+
 
 
         }
