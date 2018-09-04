@@ -8,7 +8,7 @@ namespace Lab04
         static void Main(string[] args)
         {
 
-            string n,s;
+            string n, s;
             int i;
             double g;
 
@@ -20,6 +20,9 @@ namespace Lab04
             i = int.Parse(Console.ReadLine());
             Console.WriteLine("Input your GPA:");
             g = double.Parse(Console.ReadLine());
+
+
+
 
 
 
