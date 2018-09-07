@@ -1,24 +1,24 @@
 ﻿using System;
-namespace RandomNumber
+namespace thruthTable
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Namber: ");
-            int p = int.Parse(Console.ReadLine());
-            Random random = new Random();
-            int randomNumber = random.Next(0, 9);
-            Console.WriteLine(randomNumber);
-           
-
-            bool a = randomNumber == p;
-            Console.WriteLine("{0}", a);
-
-
+            bool A, Y;
+            Console.WriteLine("      Y = NOT A");
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("   A  \t|  Y");
+            Console.WriteLine("-----------------------");
+            A = false; Y = !A;
+            Console.WriteLine(" {0}\t| {1}", A, Y);
+            A = true; Y = !A;
+            Console.WriteLine(" {0}\t| {1}", A, Y);
+            Console.WriteLine("-----------------------");
         }
     }
 }
+
 
 
 
